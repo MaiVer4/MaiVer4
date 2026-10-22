@@ -33,20 +33,50 @@
 
 ---
 
-### 👨‍💻 About Me
+### 🛰️ Overview & Engineering Stance
 
-```yaml
-developer:
-  name: Maicol Vera
-  role: Full Stack & Backend Developer
-  education: Technologist in Software Analysis and Development (ADSO) - SENA
-  status: Available for SENA Internship / Junior Opportunities
-  focus:
-    - Robust RESTful APIs & layered architectures with Java 21 & Spring Boot
-    - Dynamic SPAs with Angular (17-21) & modern React
-    - Intelligent data retrieval with RAG pipelines & Vector DBs
-  approach: "Methodical debugging, test-driven mindset & clean maintainable code"
-```
+<table>
+  <tr>
+    <td width="63%" valign="top">
+      <h3>👨‍💻 Maicol Vera <sub>// Armenia, Colombia 🇨🇴</sub></h3>
+      <p>
+        Software Development Technologist in training under the <strong>ADSO program at SENA</strong>. Specialized in building resilient backend microservices with <strong>Java 21 &amp; Spring Boot</strong>, high-performance client SPAs with <strong>Angular (17–21) &amp; TypeScript</strong>, and retrieval systems using <strong>RAG &amp; Vector Databases</strong>.
+      </p>
+      <p>
+        <strong>Engineering Pillars:</strong>
+      </p>
+      <ul>
+        <li>🛡️ <strong>Layered Architecture &amp; APIs:</strong> Decoupled architectures (Controllers, Services, Repositories, DTOs) backed by Spring Security, JWT, Flyway versioned migrations, and OpenAPI specs.</li>
+        <li>⚡ <strong>Reactive &amp; Dynamic Clients:</strong> Standalone component architecture in Angular 21, reactive forms, RxJS streams, and multi-platform reach (Next.js PWA &amp; React Native/Expo).</li>
+        <li>🧠 <strong>Applied Semantic AI &amp; RAG:</strong> Automated ingestion via Notion API, semantic text chunking, and ChromaDB vector indexing for context-grounded retrieval.</li>
+        <li>🔬 <strong>Systematic Debugging:</strong> Methodical root-cause isolation through network inspects, structured telemetry logs, and automated tests (JUnit, Vitest) over guesswork.</li>
+      </ul>
+      <p>
+        <a href="https://maiver4.github.io/Portafolio/" target="_blank">
+          <img src="https://img.shields.io/badge/Explore_Interactive_Portfolio_→-060b14?style=for-the-badge&logo=googlechrome&logoColor=64ffda&labelColor=0f1c36" alt="Explore Portfolio" />
+        </a>
+      </p>
+    </td>
+    <td width="37%" valign="top">
+      <h3>⚡ Telemetry &amp; Orbit</h3>
+      <p><strong>Primary Core:</strong><br />
+        <img src="https://img.shields.io/badge/Backend-Java_21_•_Spring_Boot-060b14?style=flat-square&logo=springboot&logoColor=6DB33F&labelColor=0f1c36" alt="Backend" /><br />
+        <img src="https://img.shields.io/badge/Frontend-Angular_21_•_TypeScript-060b14?style=flat-square&logo=angular&logoColor=DD0031&labelColor=0f1c36" alt="Frontend" /><br />
+        <img src="https://img.shields.io/badge/Data-PostgreSQL_•_MySQL_•_MinIO-060b14?style=flat-square&logo=postgresql&logoColor=4169E1&labelColor=0f1c36" alt="Data" /><br />
+        <img src="https://img.shields.io/badge/AI_Engine-RAG_•_ChromaDB_•_LangChain-060b14?style=flat-square&logo=diagram-project&logoColor=64ffda&labelColor=0f1c36" alt="AI Engine" /><br />
+        <img src="https://img.shields.io/badge/DevOps-Docker_•_Linux_•_Actions-060b14?style=flat-square&logo=docker&logoColor=2496ED&labelColor=0f1c36" alt="DevOps" />
+      </p>
+      <p><strong>Status &amp; Availability:</strong><br />
+        <img src="https://img.shields.io/badge/Availability-🟢_SENA_Internship_/_Junior-060b14?style=flat-square&logoColor=34d399&labelColor=0f1c36" alt="Availability" /><br />
+        <img src="https://img.shields.io/badge/Program-ADSO_SENA_(2024--Present)-060b14?style=flat-square&logoColor=64ffda&labelColor=0f1c36" alt="Program" /><br />
+        <img src="https://img.shields.io/badge/English-B1_Technical_Reading-060b14?style=flat-square&logoColor=38bdf8&labelColor=0f1c36" alt="English" />
+      </p>
+      <p><strong>Daily Environment:</strong><br />
+        <code>Arch Linux</code> • <code>Neovim</code> • <code>Git</code> • <code>Docker</code>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
