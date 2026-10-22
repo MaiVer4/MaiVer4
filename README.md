@@ -7,7 +7,7 @@
 
   <!-- Animated Typing Tagline -->
   <a href="https://maiver4.github.io/Portafolio/" target="_blank">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=2800&pause=900&color=64FFDA&center=true&vCenter=true&width=650&lines=Building+scalable+backends+with+Java+21+%26+Spring+Boot;Crafting+reactive+frontends+with+Angular+%26+TypeScript;Engineering+RAG+pipelines%2C+ChromaDB+%26+AI+systems;Methodical+debugging+%26+clean+layered+architecture" alt="Typing Tagline" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=2800&pause=900&color=64FFDA&center=true&vCenter=true&width=720&lines=Building+scalable+backends+with+Java+21+%26+Spring+Boot;Crafting+reactive+frontends+with+Angular+%26+TypeScript;Junior+Advanced+Pentester+%26+Ethical+Hacker;Offensive+%26+defensive+auditing+with+Kali+Linux+%26+Burp;Engineering+RAG+pipelines%2C+ChromaDB+%26+AI+systems;Security-first+mindset+%26+clean+layered+architecture" alt="Typing Tagline" />
   </a>
 
   <p align="center">
@@ -27,8 +27,9 @@
 
   <p align="center">
     <img src="https://hits.sh/github.com/MaiVer4.svg?style=flat-square&label=PROFILE+VIEWS&color=64ffda&labelColor=0f1c36" alt="Profile views counter" />
-    <img src="https://img.shields.io/badge/Location-Armenia%2C%20Quind%C3%ADo%20%F0%9F%87%A8%F0%9F%87%B4-060b14?style=flat-square&logo=googlemaps&logoColor=38bdf8&labelColor=0f1c36" alt="Location" />
+    <img src="https://img.shields.io/badge/Security-Jr._Adv._Pentester-060b14?style=flat-square&logo=kalilinux&logoColor=38bdf8&labelColor=0f1c36" alt="Pentester" />
     <img src="https://img.shields.io/badge/SENA-ADSO%20Student-060b14?style=flat-square&logo=buffer&logoColor=64ffda&labelColor=0f1c36" alt="ADSO SENA" />
+    <img src="https://img.shields.io/badge/Location-Armenia%2C%20Quind%C3%ADo%20%F0%9F%87%A8%F0%9F%87%B4-060b14?style=flat-square&logo=googlemaps&logoColor=38bdf8&labelColor=0f1c36" alt="Location" />
   </p>
 
 </div>
@@ -41,22 +42,27 @@
   <tr>
     <td width="66%" valign="top">
       <p>
-        <strong>Full Stack &amp; Backend Developer</strong> and Software Development Technologist in training under the <strong>ADSO program at SENA</strong> in Colombia. Focused on engineering decoupled backend microservices, high-performance reactive clients, and intelligent contextual retrieval systems.
+        <strong>Full Stack &amp; Backend Developer</strong> and <strong>Junior Advanced Pentester / Ethical Hacker</strong>, currently in training under the <strong>ADSO program at SENA</strong> in Colombia. Focused on engineering high-integrity backend architectures, reactive web clients, and conducting thorough offensive/defensive security assessments.
       </p>
       <p><strong>Core Focus:</strong></p>
       <ul>
         <li>⚡ <strong>Backend:</strong> Robust RESTful APIs &amp; layered microservices with <strong>Java 21 &amp; Spring Boot</strong>.</li>
         <li>🎨 <strong>Frontend:</strong> Dynamic, reactive SPAs with <strong>Angular (17–21)</strong>, TypeScript &amp; React.</li>
+        <li>🛡️ <strong>Cybersecurity &amp; Pentesting:</strong> Vulnerability assessments, web &amp; API penetration testing under <strong>OWASP Top 10</strong>, network reconnaissance, and offensive auditing in <strong>Kali Linux</strong>.</li>
         <li>🧠 <strong>AI &amp; Retrieval:</strong> Contextual data indexing and semantic search with <strong>RAG &amp; ChromaDB</strong>.</li>
       </ul>
       <p>
-        💡 <em>"Methodical debugging, test-driven mindset &amp; clean, maintainable code."</em>
+        💡 <em>"Security-first engineering, methodical debugging &amp; clean, maintainable architecture."</em>
       </p>
     </td>
     <td width="34%" valign="top">
       <p>
         <strong>Status:</strong><br />
         <img src="https://img.shields.io/badge/SENA_Internship-🟢_Available-060b14?style=flat-square&logoColor=34d399&labelColor=0f1c36" alt="Status: Available for SENA Internship" />
+      </p>
+      <p>
+        <strong>Role Level:</strong><br />
+        Full Stack Dev • Jr. Adv. Pentester
       </p>
       <p>
         <strong>Education:</strong><br />
@@ -68,7 +74,7 @@
       </p>
       <p>
         <strong>Daily Tooling:</strong><br />
-        <code>Linux</code> • <code>Git</code> • <code>Docker</code> • <code>Neovim</code>
+        <code>Kali Linux</code> • <code>Burp Suite</code> • <code>Git</code> • <code>Docker</code> • <code>Neovim</code>
       </p>
     </td>
   </tr>
@@ -149,6 +155,20 @@
       <img src="https://img.shields.io/badge/Tailwind_CSS-060b14?style=flat-square&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind CSS" />
       <img src="https://img.shields.io/badge/HTML5-060b14?style=flat-square&logo=html5&logoColor=E34F26" alt="HTML5" />
       <img src="https://img.shields.io/badge/CSS3-060b14?style=flat-square&logo=css3&logoColor=1572B6" alt="CSS3" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>Cybersecurity &amp; Pentesting</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Kali_Linux-060b14?style=flat-square&logo=kalilinux&logoColor=557C94" alt="Kali Linux" />
+      <img src="https://img.shields.io/badge/Burp_Suite-060b14?style=flat-square&logo=burpsuite&logoColor=FF6633" alt="Burp Suite" />
+      <img src="https://img.shields.io/badge/OWASP_Top_10-060b14?style=flat-square&logo=owasp&logoColor=ffffff" alt="OWASP Top 10" />
+      <img src="https://img.shields.io/badge/Nmap-060b14?style=flat-square&logo=kalilinux&logoColor=64ffda" alt="Nmap" />
+      <img src="https://img.shields.io/badge/Wireshark-060b14?style=flat-square&logo=wireshark&logoColor=1679A7" alt="Wireshark" />
+      <img src="https://img.shields.io/badge/Metasploit-060b14?style=flat-square&logo=metasploit&logoColor=1369B2" alt="Metasploit" />
+      <img src="https://img.shields.io/badge/Hack_The_Box-060b14?style=flat-square&logo=hackthebox&logoColor=9FEF00" alt="Hack The Box" />
+      <img src="https://img.shields.io/badge/API_Security-060b14?style=flat-square&logo=springsecurity&logoColor=38bdf8" alt="API Security" />
+      <img src="https://img.shields.io/badge/Vulnerability_Assessment-060b14?style=flat-square&logo=buffer&logoColor=c084fc" alt="Vulnerability Assessment" />
     </td>
   </tr>
   <tr>
