@@ -18,7 +18,7 @@
     <a href="https://linkedin.com/in/tu-perfil" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-Connect-060b14?style=for-the-badge&logo=linkedin&logoColor=c084fc&labelColor=0f1c36" alt="LinkedIn" />
     </a>
-    <a href="https://wa.me/573219395309" target="_blank">
+    <a href="https://wa.me/573246127856" target="_blank">
       <img src="https://img.shields.io/badge/WhatsApp-Chat-060b14?style=for-the-badge&logo=whatsapp&logoColor=25D366&labelColor=0f1c36" alt="WhatsApp" />
     </a>
   </p>
