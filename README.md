@@ -79,11 +79,19 @@
 ### 📊 3D Contribution Calendar
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-view.svg">
-    <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-night-view.svg">
-    <img src="profile-3d-contrib/profile-night-view.svg" alt="3D Isometric Contribution Graph" width="100%" />
-  </picture>
+  <table>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="https://github.com/MaiVer4?tab=overview" target="_blank" title="Click to explore interactive contribution activity on GitHub">
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-view.svg">
+            <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-night-view.svg">
+            <img src="profile-3d-contrib/profile-night-view.svg" alt="3D Isometric Contribution Graph" width="100%" />
+          </picture>
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
@@ -101,14 +109,7 @@
       </td>
       <td width="50%" align="center" valign="middle">
         <a href="https://github.com/MaiVer4">
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=MaiVer4&theme=dark&background=060b14&border=1f293d&stroke=64ffda&ring=38bdf8&fire=64ffda&currStreakLabel=64ffda&sideLabels=94a3b8&dates=94a3b8&border_radius=8" alt="GitHub Streak" width="100%" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center" valign="middle">
-        <a href="https://github.com/MaiVer4">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaiVer4&layout=compact&langs_count=8&title_color=64ffda&text_color=94a3b8&bg_color=060b14&border_color=1f293d&border_radius=8" alt="Top Languages" width="80%" />
+          <img src="https://streak-stats.demolab.com?user=MaiVer4&background=060b14&border=1f293d&stroke=64ffda&ring=38bdf8&fire=64ffda&currStreakLabel=64ffda&sideLabels=94a3b8&dates=94a3b8&sideNums=f8fafc&currStreakNum=f8fafc&border_radius=8" alt="GitHub Streak" width="100%" />
         </a>
       </td>
     </tr>
