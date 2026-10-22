@@ -1,16 +1,13 @@
 <div align="center">
 
-  <!-- High-Fidelity Custom Vector Banner (Self-hosted, zero external failure) -->
-  <a href="https://maiver4.github.io/Portafolio/" target="_blank">
-    <img src="https://raw.githubusercontent.com/MaiVer4/MaiVer4/main/assets/header.svg" alt="Maicol Vera - Full Stack & Backend Architect" width="100%" />
-  </a>
+  <!-- Header Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:060b14,50:0f1c36,100:64ffda&height=220&section=header&text=Maicol%20Vera&fontSize=50&fontColor=ffffff&fontAlignY=36&desc=Full%20Stack%20%26%20Backend%20Developer%20%7C%20ADSO%20SENA&descAlignY=58&descSize=16&descColor=64ffda" alt="Maicol Vera - Full Stack & Backend Developer" width="100%" />
 
   <!-- Animated Typing Tagline -->
   <a href="https://maiver4.github.io/Portafolio/" target="_blank">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2800&pause=900&color=64FFDA&center=true&vCenter=true&width=650&lines=Building+scalable+backends+with+Java+21+%26+Spring+Boot;Crafting+reactive+frontends+with+Angular+%26+TypeScript;Engineering+RAG+pipelines%2C+ChromaDB+%26+AI+systems;Methodical+debugging+%26+clean+layered+architecture" alt="Typing Tagline" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=2800&pause=900&color=64FFDA&center=true&vCenter=true&width=650&lines=Building+scalable+backends+with+Java+21+%26+Spring+Boot;Crafting+reactive+frontends+with+Angular+%26+TypeScript;Engineering+RAG+pipelines%2C+ChromaDB+%26+AI+systems;Methodical+debugging+%26+clean+layered+architecture" alt="Typing Tagline" />
   </a>
 
-  <!-- Primary Action & Contact Badges (Exact 28px height, optical alignment) -->
   <p align="center">
     <a href="https://maiver4.github.io/Portafolio/" target="_blank">
       <img src="https://img.shields.io/badge/Live_Portfolio-060b14?style=for-the-badge&logo=googlechrome&logoColor=64ffda&labelColor=0f1c36" alt="Live Portfolio" />
@@ -26,87 +23,30 @@
     </a>
   </p>
 
-  <!-- Telemetry Strip (Exact 28px height, matching style=for-the-badge, reliable hits.sh views counter) -->
   <p align="center">
-    <img src="https://hits.sh/github.com/MaiVer4.svg?style=for-the-badge&label=PROFILE+VIEWS&color=64ffda&labelColor=0f1c36" alt="Profile views counter" />
-    <img src="https://img.shields.io/badge/Location-Armenia%2C%20Quind%C3%ADo%20%F0%9F%87%A8%F0%9F%87%B4-060b14?style=for-the-badge&logo=googlemaps&logoColor=38bdf8&labelColor=0f1c36" alt="Location" />
-    <img src="https://img.shields.io/badge/ADSO-SENA%20Technologist-060b14?style=for-the-badge&logo=buffer&logoColor=64ffda&labelColor=0f1c36" alt="ADSO SENA" />
+    <img src="https://komarev.com/ghpvc/?username=MaiVer4&style=flat-square&color=64ffda&label=PROFILE+VIEWS" alt="Profile views counter" />
+    <img src="https://img.shields.io/badge/Location-Armenia%2C%20Quind%C3%ADo%20%F0%9F%87%A8%F0%9F%87%B4-060b14?style=flat-square&logo=googlemaps&logoColor=38bdf8&labelColor=0f1c36" alt="Location" />
+    <img src="https://img.shields.io/badge/SENA-ADSO%20Student-060b14?style=flat-square&logo=buffer&logoColor=64ffda&labelColor=0f1c36" alt="ADSO SENA" />
   </p>
 
 </div>
 
 ---
 
-### 🛰️ Engineering Dossier & Operational Stance
+### 👨‍💻 About Me
 
-<div align="center">
-  <!-- Bespoke SVG Engineering Dossier & Telemetry HUD -->
-  <img src="https://raw.githubusercontent.com/MaiVer4/MaiVer4/main/assets/dossier.svg" width="100%" alt="Maicol Vera - Engineering Dossier & Capability Telemetry" />
-</div>
-
-<br />
-
-<!-- Creative Bento Architectural Directives -->
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🛡️ Defensive Backend Architectures</h4>
-      <p>
-        <strong>Java 21 • Spring Boot 4 • PostgreSQL</strong><br />
-        Decoupled domain models, strict JWT authentication filters, OpenAPI documentation, and idempotent Flyway migrations.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Domain_Driven-060b14?style=flat-square&logo=spring&logoColor=6DB33F" alt="Domain Driven" />
-        <img src="https://img.shields.io/badge/JWT_Auth-060b14?style=flat-square&logo=jsonwebtokens&logoColor=64ffda" alt="JWT Auth" />
-        <img src="https://img.shields.io/badge/Flyway_Schema-060b14?style=flat-square&logo=flyway&logoColor=CC0200" alt="Flyway Schema" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>⚡ Reactive & Dynamic Clients</h4>
-      <p>
-        <strong>Angular 21 • TypeScript 5.5 • Signals</strong><br />
-        Standalone component topology, zoneless fine-grained reactivity with Angular signals, RxJS reactive pipelines, and Next.js PWA.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Signals_Reactivity-060b14?style=flat-square&logo=angular&logoColor=DD0031" alt="Signals" />
-        <img src="https://img.shields.io/badge/RxJS_Streams-060b14?style=flat-square&logo=reactivex&logoColor=B7178C" alt="RxJS" />
-        <img src="https://img.shields.io/badge/Mobile_Expo-060b14?style=flat-square&logo=expo&logoColor=38bdf8" alt="Mobile Expo" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🧠 Applied Semantic AI & RAG</h4>
-      <p>
-        <strong>ChromaDB • LangChain • Vector Stores</strong><br />
-        Automated document ingestion via Notion API, semantic chunking, and ChromaDB vector indexing for context-grounded LLM retrieval.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/ChromaDB_Vectors-060b14?style=flat-square&logo=databricks&logoColor=FF6F61" alt="ChromaDB" />
-        <img src="https://img.shields.io/badge/RAG_Pipelines-060b14?style=flat-square&logo=diagram-project&logoColor=64ffda" alt="RAG" />
-        <img src="https://img.shields.io/badge/Zero_Hallucination-060b14?style=flat-square&logo=openai&logoColor=c084fc" alt="Zero Hallucination" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🔬 Systematic Telemetry & Debugging</h4>
-      <p>
-        <strong>Docker • Vitest • JUnit 5 • Arch Linux</strong><br />
-        Eliminating guesswork through methodical root-cause network traces, structured application logs, container parity, and automated testing.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Root_Cause_Trace-060b14?style=flat-square&logo=archlinux&logoColor=1793D1" alt="Trace" />
-        <img src="https://img.shields.io/badge/JUnit5_Vitest-060b14?style=flat-square&logo=vitest&logoColor=6E9F18" alt="Tests" />
-        <img src="https://img.shields.io/badge/Container_Parity-060b14?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" />
-      </p>
-    </td>
-  </tr>
-</table>
-
-<div align="center">
-  <a href="https://maiver4.github.io/Portafolio/" target="_blank">
-    <img src="https://img.shields.io/badge/Explore_Interactive_Portfolio_→-060b14?style=for-the-badge&logo=googlechrome&logoColor=64ffda&labelColor=0f1c36" alt="Explore Portfolio" />
-  </a>
-</div>
+```yaml
+developer:
+  name: Maicol Vera
+  role: Full Stack & Backend Developer
+  education: Technologist in Software Analysis and Development (ADSO) - SENA
+  status: Available for SENA Internship / Junior Opportunities
+  focus:
+    - Robust RESTful APIs & layered architectures with Java 21 & Spring Boot
+    - Dynamic SPAs with Angular (17-21) & modern React
+    - Intelligent data retrieval with RAG pipelines & Vector DBs
+  approach: "Methodical debugging, test-driven mindset & clean maintainable code"
+```
 
 ---
 
@@ -114,15 +54,15 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MaiVer4/MaiVer4/main/profile-3d-contrib/profile-night-view.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MaiVer4/MaiVer4/main/profile-3d-contrib/profile-night-view.svg">
-    <img src="https://raw.githubusercontent.com/MaiVer4/MaiVer4/main/profile-3d-contrib/profile-night-view.svg" alt="3D Isometric Contribution Graph" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-view.svg">
+    <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-night-view.svg">
+    <img src="profile-3d-contrib/profile-night-view.svg" alt="3D Isometric Contribution Graph" width="100%" />
   </picture>
 </div>
 
 ---
 
-### 📈 GitHub Analytics & Real-Time Telemetry
+### 📈 GitHub Analytics & Streak
 
 <div align="center">
 
@@ -135,14 +75,14 @@
       </td>
       <td width="50%" align="center" valign="middle">
         <a href="https://github.com/MaiVer4">
-          <img src="https://streak-stats.demolab.com?user=MaiVer4&background=060b14&border=1f293d&stroke=64ffda&ring=38bdf8&fire=64ffda&currStreakLabel=64ffda&sideLabels=94a3b8&dates=94a3b8&sideNums=f8fafc&currStreakNum=f8fafc&border_radius=8" alt="GitHub Streak" width="100%" />
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=MaiVer4&theme=dark&background=060b14&border=1f293d&stroke=64ffda&ring=38bdf8&fire=64ffda&currStreakLabel=64ffda&sideLabels=94a3b8&dates=94a3b8&border_radius=8" alt="GitHub Streak" width="100%" />
         </a>
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center" valign="middle">
         <a href="https://github.com/MaiVer4">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaiVer4&layout=compact&langs_count=8&title_color=64ffda&text_color=94a3b8&bg_color=060b14&border_color=1f293d&border_radius=8&hide=html" alt="Top Languages" width="85%" />
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaiVer4&layout=compact&langs_count=8&title_color=64ffda&text_color=94a3b8&bg_color=060b14&border_color=1f293d&border_radius=8" alt="Top Languages" width="80%" />
         </a>
       </td>
     </tr>
@@ -152,33 +92,31 @@
 
 ---
 
-### 🛠️ Core Engineering Matrix
+### 🛠️ Technical Stack & Ecosystem
 
 <table>
   <tr>
-    <th width="25%" align="left">Domain</th>
-    <th width="75%" align="left">Technologies, Frameworks & Tooling</th>
-  </tr>
-  <tr>
-    <td valign="top"><strong>Backend & Microservices</strong></td>
-    <td>
+    <td width="25%" valign="top"><strong>Backend & APIs</strong></td>
+    <td width="75%">
       <img src="https://img.shields.io/badge/Java_21-060b14?style=flat-square&logo=openjdk&logoColor=ED8B00" alt="Java 21" />
-      <img src="https://img.shields.io/badge/Spring_Boot_4-060b14?style=flat-square&logo=springboot&logoColor=6DB33F" alt="Spring Boot" />
+      <img src="https://img.shields.io/badge/Spring_Boot-060b14?style=flat-square&logo=springboot&logoColor=6DB33F" alt="Spring Boot" />
       <img src="https://img.shields.io/badge/Spring_Security-060b14?style=flat-square&logo=springsecurity&logoColor=6DB33F" alt="Spring Security" />
-      <img src="https://img.shields.io/badge/JWT_Auth-060b14?style=flat-square&logo=jsonwebtokens&logoColor=64ffda" alt="JWT" />
-      <img src="https://img.shields.io/badge/Flyway-060b14?style=flat-square&logo=flyway&logoColor=CC0200" alt="Flyway" />
-      <img src="https://img.shields.io/badge/OpenAPI_Swagger-060b14?style=flat-square&logo=swagger&logoColor=85EA2D" alt="OpenAPI" />
-      <img src="https://img.shields.io/badge/Node.js-060b14?style=flat-square&logo=nodedotjs&logoColor=339933" alt="Node.js" />
+      <img src="https://img.shields.io/badge/REST_APIs-060b14?style=flat-square&logo=fastapi&logoColor=64ffda" alt="REST APIs" />
+      <img src="https://img.shields.io/badge/Hibernate_/_JPA-060b14?style=flat-square&logo=hibernate&logoColor=59666C" alt="JPA Hibernate" />
+      <img src="https://img.shields.io/badge/Node.js-060b14?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js" />
       <img src="https://img.shields.io/badge/Express-060b14?style=flat-square&logo=express&logoColor=ffffff" alt="Express" />
+      <img src="https://img.shields.io/badge/Flyway-060b14?style=flat-square&logo=flyway&logoColor=CC0200" alt="Flyway" />
+      <img src="https://img.shields.io/badge/Swagger_/_OpenAPI-060b14?style=flat-square&logo=swagger&logoColor=85EA2D" alt="Swagger" />
     </td>
   </tr>
   <tr>
     <td valign="top"><strong>Frontend & Mobile</strong></td>
     <td>
-      <img src="https://img.shields.io/badge/Angular_21-060b14?style=flat-square&logo=angular&logoColor=DD0031" alt="Angular 21" />
-      <img src="https://img.shields.io/badge/TypeScript_5.5-060b14?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
-      <img src="https://img.shields.io/badge/RxJS-060b14?style=flat-square&logo=reactivex&logoColor=B7178C" alt="RxJS" />
-      <img src="https://img.shields.io/badge/Next.js_PWA-060b14?style=flat-square&logo=nextdotjs&logoColor=ffffff" alt="Next.js" />
+      <img src="https://img.shields.io/badge/Angular_17+-060b14?style=flat-square&logo=angular&logoColor=DD0031" alt="Angular" />
+      <img src="https://img.shields.io/badge/TypeScript-060b14?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+      <img src="https://img.shields.io/badge/JavaScript_ES6+-060b14?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+      <img src="https://img.shields.io/badge/React-060b14?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+      <img src="https://img.shields.io/badge/Next.js-060b14?style=flat-square&logo=nextdotjs&logoColor=ffffff" alt="Next.js" />
       <img src="https://img.shields.io/badge/React_Native-060b14?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" />
       <img src="https://img.shields.io/badge/Expo-060b14?style=flat-square&logo=expo&logoColor=ffffff" alt="Expo" />
       <img src="https://img.shields.io/badge/Tailwind_CSS-060b14?style=flat-square&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind CSS" />
@@ -241,5 +179,5 @@ Explore my highlighted open-source repositories pinned below:
 ---
 
 <div align="center">
-  <sub>Built with precision &amp; care by <a href="https://github.com/MaiVer4">Maicol Vera</a> • Armenia, Colombia • © 2026</sub>
+  <sub>Built with care by <a href="https://github.com/MaiVer4">Maicol Vera</a> • Quindío, Colombia • © 2026</sub>
 </div>
