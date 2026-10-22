@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 270" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060b14" />
+      <stop offset="50%" stop-color="#0b172a" />
+      <stop offset="100%" stop-color="#050a12" />
+    </linearGradient>
+
+    <!-- Radial Ambient Glows -->
+    <radialGradient id="glowCyan" cx="20%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#64ffda" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#64ffda" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowBlue" cx="80%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="100%" r="40%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Text Gradients -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="45%" stop-color="#e0f2fe" />
+      <stop offset="75%" stop-color="#64ffda" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0e1f38" />
+      <stop offset="100%" stop-color="#0a1526" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#64ffda" stroke-opacity="0.04" stroke-width="1" />
+      <circle cx="32" cy="0" r="1" fill="#64ffda" fill-opacity="0.12" />
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulseDot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.35; transform: scale(0.85); }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(-100%); }
+      100% { transform: translateY(1000%); }
+    }
+    .pulsing-dot {
+      animation: pulseDot 2.4s ease-in-out infinite;
+      transform-origin: 38px 36px;
+    }
+    .font-mono {
+      font-family: ui-monospace, SFMono-Regular, "Fira Code", Menlo, Monaco, Consolas, monospace;
+    }
+    .font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+  </style>
+
+  <!-- Base Card Surface (Outer radius 16px, border 1px #1e293b) -->
+  <rect x="2" y="2" width="936" height="266" rx="16" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="1.5" />
+  
+  <!-- Subtle Grid Overlay -->
+  <rect x="2" y="2" width="936" height="266" rx="16" fill="url(#grid)" />
+
+  <!-- Ambient Light Blobs -->
+  <rect x="2" y="2" width="936" height="266" rx="16" fill="url(#glowCyan)" />
+  <rect x="2" y="2" width="936" height="266" rx="16" fill="url(#glowBlue)" />
+  <rect x="2" y="2" width="936" height="266" rx="16" fill="url(#glowPurple)" />
+
+  <!-- Inner Structural Accent Frame (Inset 6px, radius 10px: r_outer 16 = r_inner 10 + inset 6) -->
+  <rect x="8" y="8" width="924" height="254" rx="10" fill="none" stroke="#64ffda" stroke-opacity="0.15" stroke-width="1" stroke-dasharray="8 6" />
+
+  <!-- Corner Precision Brackets (Cyber Dark Tech Accents) -->
+  <path d="M 6 24 L 6 6 L 24 6" fill="none" stroke="#64ffda" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 934 24 L 934 6 L 916 6" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 6 246 L 6 264 L 24 264" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 934 246 L 934 264 L 916 264" fill="none" stroke="#64ffda" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- ================= TOP TELEMETRY BAR ================= -->
+  <g class="font-mono">
+    <!-- Status indicator ring + dot -->
+    <circle cx="38" cy="36" r="7" fill="none" stroke="#64ffda" stroke-opacity="0.3" stroke-width="1.5" />
+    <circle cx="38" cy="36" r="4" fill="#64ffda" class="pulsing-dot" filter="url(#neonGlow)" />
+    
+    <text x="54" y="40" fill="#64ffda" font-size="11" font-weight="700" letter-spacing="1.5">LIVE RUNTIME</text>
+    <text x="160" y="40" fill="#475569" font-size="11">//</text>
+    <text x="178" y="40" fill="#94a3b8" font-size="11" letter-spacing="1">SYS.ID: <tspan fill="#e2e8f0" font-weight="600">MV-46</tspan></text>
+    <text x="286" y="40" fill="#475569" font-size="11">//</text>
+    <text x="304" y="40" fill="#94a3b8" font-size="11" letter-spacing="1">GEO: <tspan fill="#e2e8f0" font-weight="600">ARMENIA, COLOMBIA 🇨🇴</tspan></text>
+    <text x="510" y="40" fill="#475569" font-size="11">//</text>
+    <text x="528" y="40" fill="#94a3b8" font-size="11" letter-spacing="1">TRACK: <tspan fill="#c084fc" font-weight="600">ADSO SENA</tspan></text>
+
+    <!-- Top-Right Badge -->
+    <rect x="764" y="24" width="144" height="24" rx="4" fill="#0c192d" stroke="#1e293b" stroke-width="1" />
+    <text x="836" y="40" fill="#38bdf8" font-size="10.5" font-weight="600" text-anchor="middle" letter-spacing="1">● STATUS: ACTIVE</text>
+  </g>
+
+  <!-- Top Divider Line with Neon Node -->
+  <line x1="28" y1="58" x2="912" y2="58" stroke="#1e293b" stroke-width="1" />
+  <line x1="28" y1="58" x2="180" y2="58" stroke="#64ffda" stroke-width="1.5" stroke-opacity="0.7" />
+  <circle cx="180" cy="58" r="2" fill="#64ffda" />
+
+  <!-- ================= HERO NAME & TITLE ================= -->
+  <g class="font-mono">
+    <text x="38" y="96" fill="#64ffda" font-size="13" font-weight="700" letter-spacing="3.5">
+      &gt; FULL STACK &amp; BACKEND ARCHITECT
+    </text>
+  </g>
+
+  <g class="font-sans">
+    <text x="36" y="152" fill="url(#textGrad)" font-size="52" font-weight="900" letter-spacing="2" filter="url(#neonGlow)">
+      MAICOL VERA
+    </text>
+  </g>
+
+  <g class="font-mono">
+    <text x="38" y="184" fill="#94a3b8" font-size="13" letter-spacing="0.5">
+      Specializing in <tspan fill="#ffffff" font-weight="600">Java 21 / Spring Boot</tspan> microservices, <tspan fill="#ffffff" font-weight="600">Angular 21</tspan> SPAs &amp; <tspan fill="#64ffda" font-weight="600">Semantic RAG</tspan> systems.
+    </text>
+  </g>
+
+  <!-- ================= BOTTOM TELEMETRY CHIPS ================= -->
+  <!-- Chip 1: Spring Boot -->
+  <g class="font-mono">
+    <rect x="36" y="210" width="202" height="34" rx="6" fill="url(#pillGrad)" stroke="#1e3a5f" stroke-width="1" />
+    <circle cx="52" cy="227" r="4" fill="#6DB33F" />
+    <text x="64" y="232" fill="#e2e8f0" font-size="11.5" font-weight="600" letter-spacing="0.5">SPRING BOOT 4 // JAVA 21</text>
+  </g>
+
+  <!-- Chip 2: Angular 21 -->
+  <g class="font-mono">
+    <rect x="250" y="210" width="202" height="34" rx="6" fill="url(#pillGrad)" stroke="#1e3a5f" stroke-width="1" />
+    <circle cx="266" cy="227" r="4" fill="#DD0031" />
+    <text x="278" y="232" fill="#e2e8f0" font-size="11.5" font-weight="600" letter-spacing="0.5">ANGULAR 21 // TS 5.5</text>
+  </g>
+
+  <!-- Chip 3: RAG & Vector DB -->
+  <g class="font-mono">
+    <rect x="464" y="210" width="216" height="34" rx="6" fill="url(#pillGrad)" stroke="#1e3a5f" stroke-width="1" />
+    <circle cx="480" cy="227" r="4" fill="#c084fc" />
+    <text x="492" y="232" fill="#e2e8f0" font-size="11.5" font-weight="600" letter-spacing="0.5">RAG PIPELINES // CHROMADB</text>
+  </g>
+
+  <!-- Chip 4: Clean Architecture & Ops -->
+  <g class="font-mono">
+    <rect x="692" y="210" width="212" height="34" rx="6" fill="url(#pillGrad)" stroke="#1e3a5f" stroke-width="1" />
+    <circle cx="708" cy="227" r="4" fill="#38bdf8" />
+    <text x="720" y="232" fill="#e2e8f0" font-size="11.5" font-weight="600" letter-spacing="0.5">DOCKER // CLEAN ARCH</text>
+  </g>
+</svg>
