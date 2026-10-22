@@ -37,9 +37,42 @@
 
 ### 👨‍💻 About Me
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/MaiVer4/MaiVer4/main/assets/about.svg" alt="Developer Profile - Maicol Vera" width="100%" />
-</div>
+<table>
+  <tr>
+    <td width="66%" valign="top">
+      <p>
+        <strong>Full Stack &amp; Backend Developer</strong> and Software Development Technologist in training under the <strong>ADSO program at SENA</strong> in Colombia. Focused on engineering decoupled backend microservices, high-performance reactive clients, and intelligent contextual retrieval systems.
+      </p>
+      <p><strong>Core Focus:</strong></p>
+      <ul>
+        <li>⚡ <strong>Backend:</strong> Robust RESTful APIs &amp; layered microservices with <strong>Java 21 &amp; Spring Boot</strong>.</li>
+        <li>🎨 <strong>Frontend:</strong> Dynamic, reactive SPAs with <strong>Angular (17–21)</strong>, TypeScript &amp; React.</li>
+        <li>🧠 <strong>AI &amp; Retrieval:</strong> Contextual data indexing and semantic search with <strong>RAG &amp; ChromaDB</strong>.</li>
+      </ul>
+      <p>
+        💡 <em>"Methodical debugging, test-driven mindset &amp; clean, maintainable code."</em>
+      </p>
+    </td>
+    <td width="34%" valign="top">
+      <p>
+        <strong>Status:</strong><br />
+        <img src="https://img.shields.io/badge/SENA_Internship-🟢_Available-060b14?style=flat-square&logoColor=34d399&labelColor=0f1c36" alt="Status: Available for SENA Internship" />
+      </p>
+      <p>
+        <strong>Education:</strong><br />
+        ADSO Technologist — SENA
+      </p>
+      <p>
+        <strong>Location:</strong><br />
+        Armenia, Quindío, Colombia 🇨🇴
+      </p>
+      <p>
+        <strong>Daily Tooling:</strong><br />
+        <code>Linux</code> • <code>Git</code> • <code>Docker</code> • <code>Neovim</code>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
