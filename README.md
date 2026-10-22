@@ -1,7 +1,9 @@
 <div align="center">
 
-  <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:060b14,50:0f1c36,100:64ffda&height=220&section=header&text=Maicol%20Vera&fontSize=50&fontColor=ffffff&fontAlignY=36&desc=Full%20Stack%20%26%20Backend%20Developer%20%7C%20ADSO%20SENA&descAlignY=58&descSize=16&descColor=64ffda" alt="Maicol Vera - Full Stack & Backend Developer" width="100%" />
+  <!-- Waving Cyber Gradient Banner (Self-hosted, zero external failure) -->
+  <a href="https://maiver4.github.io/Portafolio/" target="_blank">
+    <img src="https://raw.githubusercontent.com/MaiVer4/MaiVer4/main/assets/banner.svg" alt="Maicol Vera - Full Stack & Backend Developer" width="100%" />
+  </a>
 
   <!-- Animated Typing Tagline -->
   <a href="https://maiver4.github.io/Portafolio/" target="_blank">
@@ -24,7 +26,7 @@
   </p>
 
   <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=MaiVer4&style=flat-square&color=64ffda&label=PROFILE+VIEWS" alt="Profile views counter" />
+    <img src="https://hits.sh/github.com/MaiVer4.svg?style=flat-square&label=PROFILE+VIEWS&color=64ffda&labelColor=0f1c36" alt="Profile views counter" />
     <img src="https://img.shields.io/badge/Location-Armenia%2C%20Quind%C3%ADo%20%F0%9F%87%A8%F0%9F%87%B4-060b14?style=flat-square&logo=googlemaps&logoColor=38bdf8&labelColor=0f1c36" alt="Location" />
     <img src="https://img.shields.io/badge/SENA-ADSO%20Student-060b14?style=flat-square&logo=buffer&logoColor=64ffda&labelColor=0f1c36" alt="ADSO SENA" />
   </p>
@@ -35,18 +37,9 @@
 
 ### 👨‍💻 About Me
 
-```yaml
-developer:
-  name: Maicol Vera
-  role: Full Stack & Backend Developer
-  education: Technologist in Software Analysis and Development (ADSO) - SENA
-  status: Available for SENA Internship / Junior Opportunities
-  focus:
-    - Robust RESTful APIs & layered architectures with Java 21 & Spring Boot
-    - Dynamic SPAs with Angular (17-21) & modern React
-    - Intelligent data retrieval with RAG pipelines & Vector DBs
-  approach: "Methodical debugging, test-driven mindset & clean maintainable code"
-```
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MaiVer4/MaiVer4/main/assets/about.svg" alt="Developer Profile - Maicol Vera" width="100%" />
+</div>
 
 ---
 
