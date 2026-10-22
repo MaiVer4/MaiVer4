@@ -1,29 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 220" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 120" width="100%" height="100%">
   <defs>
-    <!-- Background Gradient -->
+    <!-- Deep Minimalist Canvas Gradient -->
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#060b14" />
-      <stop offset="60%" stop-color="#0a1526" />
+      <stop offset="50%" stop-color="#08101e" />
       <stop offset="100%" stop-color="#060b14" />
-    </linearGradient>
-
-    <!-- Wave Gradients -->
-    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0b172b" />
-      <stop offset="50%" stop-color="#0f2744" />
-      <stop offset="100%" stop-color="#0b172b" />
-    </linearGradient>
-
-    <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0e2a4a" />
-      <stop offset="50%" stop-color="#155e75" />
-      <stop offset="100%" stop-color="#0e2a4a" />
-    </linearGradient>
-
-    <linearGradient id="wave3" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0284c7" />
-      <stop offset="50%" stop-color="#64ffda" />
-      <stop offset="100%" stop-color="#38bdf8" />
     </linearGradient>
 
     <!-- Title Crisp Gradient -->
@@ -31,18 +12,25 @@
       <stop offset="0%" stop-color="#ffffff" />
       <stop offset="100%" stop-color="#f1f5f9" />
     </linearGradient>
+
+    <!-- Subtle Hairline Base Gradient -->
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#060b14" stop-opacity="0" />
+      <stop offset="25%" stop-color="#1e293b" />
+      <stop offset="50%" stop-color="#64ffda" stop-opacity="0.6" />
+      <stop offset="75%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#060b14" stop-opacity="0" />
+    </linearGradient>
   </defs>
 
   <!-- Clean Canvas Surface -->
-  <rect width="940" height="220" fill="url(#bg)" />
+  <rect width="940" height="120" fill="url(#bg)" />
 
-  <!-- Smooth Minimalist Waving Form (Bottom) -->
-  <path d="M 0 165 C 200 140, 360 190, 540 168 C 720 146, 840 178, 940 158 L 940 220 L 0 220 Z" fill="url(#wave1)" opacity="0.7" />
-  <path d="M 0 182 C 180 155, 380 205, 560 178 C 740 150, 860 188, 940 174 L 940 220 L 0 220 Z" fill="url(#wave2)" opacity="0.5" />
-  <path d="M 0 198 C 190 175, 340 216, 530 192 C 710 168, 850 198, 940 186 L 940 220 L 0 220 Z" fill="url(#wave3)" opacity="0.35" />
-  <path d="M 0 198 C 190 175, 340 216, 530 192 C 710 168, 850 198, 940 186" fill="none" stroke="url(#wave3)" stroke-width="1.5" opacity="0.8" />
+  <!-- Centered Minimalist Typography -->
+  <text x="470" y="58" text-anchor="middle" fill="url(#titleGrad)" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans', Ubuntu, Cantarell, sans-serif" font-size="38" font-weight="500" letter-spacing="-0.3">Maicol Vera</text>
+  
+  <text x="470" y="88" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans', Ubuntu, Cantarell, sans-serif" font-size="12" font-weight="500" fill="#94a3b8" letter-spacing="2">FULL STACK &amp; BACKEND DEVELOPER <tspan fill="#475569">•</tspan> <tspan fill="#64ffda">ADSO SENA</tspan></text>
 
-  <!-- Refined Minimalist Typography -->
-  <text x="470" y="92" text-anchor="middle" fill="url(#titleGrad)" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans', Ubuntu, Cantarell, sans-serif" font-size="44" font-weight="500" letter-spacing="-0.3">Maicol Vera</text>
-  <text x="470" y="126" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans', Ubuntu, Cantarell, sans-serif" font-size="13" font-weight="500" fill="#94a3b8" letter-spacing="2">FULL STACK &amp; BACKEND DEVELOPER <tspan fill="#475569">•</tspan> <tspan fill="#64ffda">ADSO SENA</tspan></text>
+  <!-- Elegant 1px Minimalist Bottom Hairline -->
+  <line x1="100" y1="119" x2="840" y2="119" stroke="url(#lineGrad)" stroke-width="1" />
 </svg>
